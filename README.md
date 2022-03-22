@@ -1,4 +1,5 @@
 # gatsby-plugin-vercel-deploy
+[![NPM package](https://img.shields.io/npm/v/gatsby-plugin-vercel-deploy)](https://www.npmjs.com/package/gatsby-plugin-vercel-deploy)
 [![MIT Licensed](https://img.shields.io/github/license/daangn/gatsby-plugin-vercel-deploy)](#license)
 
 Automatically generate [`vercel.json`](https://vercel.com/docs/project-configuration) from the gatsby project.
