@@ -52,7 +52,7 @@ export const onPostBuild: GatsbyNode['onPostBuild'] = async ({
   const vercelConfig: VercelConfig = {
     headers,
     trailingSlash: true,
-    redirects: redirects.map(transformRedirect),
+    redirects: redirects.map(transformRedirect({ reporter })),
   };
   if (trailingSlash === 'never') {
     vercelConfig.trailingSlash = false;
